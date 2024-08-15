@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const NavLink = ({href, children}) => {
     return (
-        <Link className="text-black flex items-start gap-[10px] p-[10px_14px] text-[21px] font-normal leading-normal tracking-[0.63px] font-poppins ml-[17px]" href={href}>
+        <Link className="text-black flex items-start gap-[10px] p-[10px_14px] text-[21px] font-normal leading-normal tracking-[0.63px] font-poppins ml-[24px]" href={href}>
             {children}
         </Link>
     )
