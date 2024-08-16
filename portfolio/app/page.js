@@ -4,6 +4,10 @@ import HeroSection from "./components/HeroSection";
 import Mumair from "./components/Mumair";
 import About from "./components/About";
 import Services from "./components/Services";
+import MyProjects from "./components/MyProjects";
+import Testimonials from "./components/Testimonials";
+import ConnectTogether from "./components/ConnectTogether";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -12,6 +16,10 @@ export default function Home() {
       <Mumair></Mumair>
       <About></About>
       <Services></Services>
+      <MyProjects/>
+      <Testimonials/>
+      <ConnectTogether/>
+      <Contact/>
     </main>
   );
 }
